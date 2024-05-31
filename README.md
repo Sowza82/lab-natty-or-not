@@ -56,6 +56,7 @@ Criar este eBook foi um desafio estimulante e uma oportunidade de explorar as fr
 
 
 
+
 ### Exemplos e Insigths
 
 - [E-BOOK](/exemplos/E-BOOK.md)
