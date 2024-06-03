@@ -4,13 +4,15 @@
 
 > Woooow! Look at this 👀
 
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
+Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o 
+potencial dessas tendências tecnológicas incríveis!
 
 ## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
 
 ### Objetivos
 
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
+1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo!
+2. Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
 1. **Potfólio de Projetos**:
     1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
     2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
@@ -23,7 +25,9 @@ Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisicu
 # IA Visual
 
 ## 📒 Descrição
-O "IA Visual" é um eBook dedicado à exploração da criação de imagens realistas utilizando inteligência artificial. Este projeto abrange desde a introdução às redes neurais generativas até entrevistas com especialistas, estudos de caso, aplicações práticas e desafios éticos. Além disso, inclui uma galeria de imagens e um vídeo interativo que desafia os espectadores a distinguir entre imagens reais e falsas.
+O "IA Visual" é um eBook dedicado à exploração da criação de imagens realistas utilizando inteligência artificial.
+ Este projeto abrange desde a introdução às redes neurais generativas até entrevistas com especialistas, estudos de caso, aplicações práticas e desafios éticos.
+ Além disso, inclui uma galeria de imagens e um vídeo interativo que desafia os espectadores a distinguir entre imagens reais e falsas.
 
 ## 🤖 Tecnologias Utilizadas
 - **HTML, CSS e JavaScript**: Para codificação e desenvolvimento do eBook.
@@ -45,13 +49,17 @@ O processo de criação do eBook envolveu várias etapas:
 O eBook "IA Visual" apresenta uma visão abrangente e detalhada sobre a criação de imagens realistas com IA, incluindo:
 - **Capítulos informativos**: Introdução, entrevistas, estudos de caso, aplicações práticas e desafios éticos.
 - **Galeria de Imagens**: Uma seleção de imagens criadas com IA, exibindo o potencial da tecnologia.
-- **Vídeo Interativo**: Um vídeo no YouTube que desafia os espectadores a distinguir entre imagens reais e falsas, proporcionando uma experiência de entretenimento e aprendizado.
+- **Vídeo Interativo**: Um vídeo no YouTube que desafia os espectadores a distinguir entre imagens reais e falsas, proporcionando
+ uma experiência de entretenimento e aprendizado.
 
 ## 🎮 Jogo Interativo
-Além do conteúdo informativo, o eBook também apresenta um jogo interativo chamado "Mine Game". Neste jogo, os visitantes são desafiados a testar sua perspicácia e habilidade ao distinguir entre imagens reais e falsas. Uma experiência divertida e educativa para os usuários do eBook.
+Além do conteúdo informativo, o eBook também apresenta um jogo interativo chamado "Mine Game". Neste jogo, os visitantes são desafiados
+a testar sua perspicácia e habilidade ao distinguir entre imagens reais e falsas. Uma experiência divertida e educativa para os usuários do eBook.
 
 ## 💭 Reflexão (Opcional)
-Criar este eBook foi um desafio estimulante e uma oportunidade de explorar as fronteiras criativas da IA. A integração de diferentes tecnologias e ferramentas mostrou-se crucial para o desenvolvimento de um projeto tão abrangente. Este trabalho não só amplia o conhecimento sobre IA, mas também destaca a importância de abordagens éticas e responsáveis na criação de conteúdo digital.
+Criar este eBook foi um desafio estimulante e uma oportunidade de explorar as fronteiras criativas da IA.
+A integração de diferentes tecnologias e ferramentas mostrou-se crucial para o desenvolvimento de um projeto tão abrangente.
+Este trabalho não só amplia o conhecimento sobre IA mas também destaca a importância de abordagens éticas e responsáveis na criação de conteúdo digital.
 
 
 
