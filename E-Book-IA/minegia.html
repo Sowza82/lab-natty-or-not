@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Game</title>
+     <!-- Bootstrap CSS-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <!-- Font Awesome CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+         
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="./css/game.css">
+</head>
+<body>
+    <header>
+        <h1>Natural ou Artificial</h1>
+    </header>
+    <div class="container">
+        <div class="cards">
+            <div class="card" data-correct="fakenatty">
+                <img src="./img/game/f5.jpg" alt="Fake Natty 1">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="natty">
+                <img src="./img/game/v5.jpg" alt="Natty 1">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="fakenatty">
+                <img src="./img/game/f4.jpg" alt="Fake Natty 2">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="fakenatty">
+                <img src="./img/game/f3.jpg" alt="Fake Natty 3">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="fakenatty">
+                <img src="./img/game/f2.jpg" alt="Fake Natty 4">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="natty">
+                <img src="./img/game/v3.jpg" alt="Natty 2">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="natty">
+                <img src="./img/game/v2.jpg" alt= "Natty 3">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="fakenatty">
+                <img src="./img/game/f1.jpg" alt="Fake Natty 5">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="natty">
+                <img src="./img/game/v1.jpg" alt="Natty 4">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="fakenatty">
+                <img src="./img/game/f7.jpeg" alt="Fake Natty 6">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="natty">
+                <img src="./img/game/v4.jpg" alt="Natty 5">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div>
+            <div class="card" data-correct="fakenatty">
+                <img src="./img/game/f6.jpg" alt="Fake Natty 7">
+                <div class="buttons">
+                    <button onclick="checkAnswer(this, 'natty')">Natty</button>
+                    <button onclick="checkAnswer(this, 'fakenatty')">Fake Natty</button>
+                </div>
+                <div class="result"></div>
+            </div> 
+        </div>
+        <div class="score"></div>
+        <div class="achievements"></div>
+        <div class="end-game-options">
+            <button onclick="resetGame()" class="btn btn-primary">Jogar Novamente</button>
+            <button onclick="exitGame()" class="btn btn-secondary">Sair do Jogo</button>
+        </div>
+    </div>
+    <footer>
+        
+        <div class="social-media">
+            <h2>Redes Sociais</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/sowza82-tatiane-6a9519273" target="_blank"><i
+                            class="fab fa-linkedin"></i>
+                        Linkedin </a></li>
+                <li><a href="https://github.com/Sowza82" target="_blank"><i class="fab fa-github"></i> Github </a>
+                </li>
+                <li><a href="https://www.instagram.com/tathysowza_82/" target="_blank"><i class="fab fa-instagram"></i>
+                        Instagram</a></li>
+            
+            </ul>
+        </div>
+        <!-- Botão Voltar ao Topo -->
+        <button class="back-to-top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">
+            <i class="fas fa-arrow-up"></i> <!-- Ícone de seta para cima -->
+        </button>
+        <p>&copy; 2024 Natural ou Artificial. Todos os direitos reservados @sowza82.</p>
+    </footer>
+    <!-- Bootstrap JS e jQuery (opcional) -->
+    <!-- jQuery -->
+    <script src= "https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/game.js"></script>
+</body>
+</html>

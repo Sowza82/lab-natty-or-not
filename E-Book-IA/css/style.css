@@ -1,0 +1,528 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background: linear-gradient(to bottom, #fff, #f0f0f0);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Estilos para o Header */
+header {
+    background: linear-gradient(to right, #4CAF50, #2E8B57);
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+.cover {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cover h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.cover h2 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+/* Estilos para a Navegação (nav) */
+nav {
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #032612;
+    /* Mudar para a cor desejada ao passar o mouse */
+}
+
+/* Estilos para o Menu Hamburguer */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hamburger-icon {
+    font-size: 1.8rem;
+}
+
+/* Estilos para a Tabela de Conteúdos */
+.table-of-contents {
+    text-align: center;
+}
+
+.table-of-contents ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.table-of-contents li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.table-of-contents a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Estilos para o Menu Responsivo */
+@media (max-width: 768px) {
+    .table-of-contents {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .table-of-contents.active {
+        display: block;
+        text-align: left;
+        background: #4CAF50;
+        padding: 10px;
+    }
+
+    .table-of-contents li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Estilos para o Conteúdo Principal */
+.chapter h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Estilo para o conteúdo de texto das seções */
+.chapter p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Estilo para os parágrafos de entrevistas */
+.chapter p.interviewee {
+    font-style: italic;
+}
+
+/* Estilo para as listas */
+.chapter ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.chapter li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para as citações */
+.chapter blockquote {
+    font-style: italic;
+    color: #888;
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    margin-left: 0;
+}
+
+/* Estilo para o conteúdo destacado */
+.chapter p.highlight {
+    font-weight: bold;
+    color: #0066cc;
+}
+
+/* Estilos específicos para cada capítulo */
+#capitulo-1 {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#capitulo-2 {
+    background-color: #e6f7ff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#capitulo-3 {
+    background-color: #fff0f5;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#capitulo-4 {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#capitulo-5 {
+    background-color: #ffe0b2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a Galeria de Imagens */
+/* Estilo para o título da galeria */
+.gallery h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Container para centralizar o conteúdo */
+.gallery .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Row para alinhar as imagens */
+.gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* Colunas da galeria */
+.gallery .col-md-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+/* Estilo para as imagens */
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Container flex para alinhar os elementos lado a lado */
+.video-game-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Quebra de linha automática se o espaço não for suficiente */
+    gap: 20px;
+    /* Espaço entre os elementos */
+    justify-content: center;
+    /* Centraliza os elementos */
+}
+
+/* Estilo para a div do vídeo */
+.video-list {
+    flex: 1;
+    /* Ocupa todo o espaço disponível */
+    max-width: 560px;
+    /* Mantém o tamanho máximo do vídeo */
+}
+
+/* Estilo para a div do mine game */
+.mine-game {
+    flex: 1;
+    /* Ocupa todo o espaço disponível */
+    max-width: 560px;
+    /* Mantém o tamanho máximo do jogo */
+}
+
+/* Reordenar em telas menores */
+@media (max-width: 768px) {
+    .video-game-container {
+        flex-direction: column;
+        /* Coloca os elementos em coluna */
+    }
+
+    .video-list,
+    .mine-game {
+        max-width: 100%;
+        /* Ocupa a largura total */
+    }
+}
+
+/* Estilo para o título da seção de ferramentas */
+.tools-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo para o container de ferramentas */
+.tools-section .tools {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para a lista de ferramentas */
+.tools-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.tools-section li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Estilo específico para a seção de ferramentas */
+.tools-section .tools {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tools-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.tools-section li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Estilo global para todas as seções */
+section {
+    margin: 40px 0;
+    padding: 20px;
+}
+
+/* Estilo para o título de todas as seções */
+section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estilo específico para a seção de vídeos */
+.videos .video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.videos iframe {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.videos iframe:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para o título do jogo */
+.game-title {
+    font-size: 24px;
+    /* Tamanho da fonte */
+    color: #333;
+    /* Cor do texto */
+    margin-bottom: 10px;
+    /* Espaçamento inferior */
+}
+
+/* Estilo para a descrição do jogo */
+.game-description {
+    font-size: 16px;
+    /* Tamanho da fonte */
+    color: #666;
+    /* Cor do texto */
+    margin-bottom: 20px;
+    /* Espaçamento inferior */
+}
+
+/* Estilo para o botão do jogo */
+.game-button {
+    background-color: #4CAF50;
+    /* Cor de fundo */
+    color: #fff;
+    /* Cor do texto */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    border: none;
+    /* Sem borda */
+    border-radius: 5px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Cursor ao passar */
+    transition: background-color 0.3s ease;
+    /* Transição suave */
+}
+
+/* Estilo de hover para o botão do jogo */
+.game-button:hover {
+    background-color: #032612;
+    /* Cor de fundo no hover */
+}
+
+/* Estilos para o Rodapé */
+footer {
+    background: #2E8B57;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px; /* Adiciona um padding para espaço interno */
+}
+
+footer p {
+    margin: 10px 0 0;
+    font-size: 0.9rem;
+}
+
+footer .social-media h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .social-media ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que os itens da lista sejam quebrados em várias linhas, se necessário */
+}
+
+footer .social-media li {
+    display: inline;
+}
+
+footer .social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+footer .social-media a i {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
+
+footer .social-media a:hover {
+    color: #032612; /* Mudar para a cor desejada ao passar o mouse */
+}
+
+/* Estilos responsivos para o Rodapé */
+@media (max-width: 768px) {
+    footer .social-media ul {
+        gap: 10px; /* Reduz o espaço entre os itens da lista em telas menores */
+    }
+
+    footer .social-media a {
+        margin: 0 5px; /* Reduz a margem entre os links em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    footer p {
+        font-size: 0.8rem; /* Reduz o tamanho da fonte do parágrafo em telas muito pequenas */
+    }
+
+    footer .social-media h2 {
+        font-size: 18px; /* Reduz o tamanho da fonte do título em telas muito pequenas */
+    }
+
+    footer .social-media a i {
+        font-size: 1rem; /* Reduz o tamanho dos ícones em telas muito pequenas */
+    }
+
+    footer .social-media a {
+        margin: 0 3px; /* Reduz ainda mais a margem entre os links em telas muito pequenas */
+    }
+}
+
+/* Estilo para o botão Voltar ao Topo */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50%; /* Para criar um círculo */
+    cursor: pointer;
+    display: none; /* O botão será ocultado por padrão */
+    z-index: 999; /* Garante que o botão esteja sempre acima de outros elementos */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor de fundo */
+}
+
+.back-to-top:hover {
+    background-color:#032612; /* Cor de fundo quando o botão é hover */
+}
+
+/* Estilo para o ícone de seta dentro do botão */
+.back-to-top i {
+    font-size: 1.2rem; /* Tamanho do ícone */
+}
+
+/* Exibir o botão quando a página for rolada para baixo */
+.show-back-to-top {
+    display: block;
+}
